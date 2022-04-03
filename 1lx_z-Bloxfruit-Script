@@ -4713,7 +4713,7 @@
 		end)
 	end)
 	
-	local Main = library:Window("1lx_z","Blox Fruit Version.1.0")
+	local Main = library:Window("1lx_z","Blox Fruit Version.1.1")
 	local AutoFarmTab = Main:Tab("Auto Farm")
 	local MainAutoFarmFunction = AutoFarm(Ms,NameQuest,LevelQuest,NameMon,CFrameMon,CFrameQuest,"AutoFarmLevel")
 	spawn(function()
